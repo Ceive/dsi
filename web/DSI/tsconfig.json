@@ -1,0 +1,16 @@
+{
+  "include": [
+	"./main.ts"
+  ],
+  "compilerOptions": {
+	"module": "AMD",
+	"target": "es5",
+	"removeComments": true,
+	"preserveConstEnums": true,
+	"sourceMap": true,
+	"outFile": "./ceive.dsi.js"
+  },
+  "exclude": [
+	"node_modules"
+  ]
+}
